@@ -33,7 +33,7 @@ const NavLink = styled.div`
 export default function Header() {
   return (
     <HeaderStyled>
-      <SubHeaderStyled>Derinell's OAuth Project</SubHeaderStyled>
+      <SubHeaderStyled>Derinell&apos;s OAuth Project</SubHeaderStyled>
       <NavContainer>
         <NavLink>
           <Link href="/">Sign In</Link>

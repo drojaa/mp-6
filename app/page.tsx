@@ -1,5 +1,4 @@
 "use client"
-import Head from "next/head";
 import styled from "styled-components";
 import { signIn } from "next-auth/react";
 const DivStyled = styled.div`
@@ -17,9 +16,7 @@ border: 4px white;
 font: italic calc(10px + 1vw) sans-serif; 
 text-decoration: underline;
 cursor: pointer;
-:hover {
-color: pink ;}
-`
+`;
 export default function Home() {
   const handleSignIn = () => {
     signIn("google")
